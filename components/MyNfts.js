@@ -35,7 +35,7 @@ const MyNfts = () => {
   else
     return (
       <div className={style.container}>
-        <h3 className={style.containerHeading}>My NFT's Collection</h3>
+        <h3 className={style.containerHeading}>My NFT&apos;s Collection</h3>
         <div className={style.nftContainer}>
           {loading || isLoading ? (
             <div className={style.loaderContainer}>
@@ -44,7 +44,7 @@ const MyNfts = () => {
           ) : (
             <>
               {userNfts.length == 0 ? (
-                <div>You haven't created any NFT's</div>
+                <div>You haven&apos;t created any NFT&apos;s</div>
               ) : (
                 <>
                   {userNfts.map((item, index) => (

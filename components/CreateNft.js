@@ -96,7 +96,7 @@ const CreateNft = () => {
           <FormControl>
             <FormLabel htmlFor="price">Price</FormLabel>
             <InputGroup>
-              <InputLeftAddon children="ETH" />
+              {/* <InputLeftAddon children={"ETH"} /> */}
               <Input id="price" type="number" placeholder="Price at you want to sell." value={price} onChange={(e) => setPrice(e.target.value)} />
             </InputGroup>
           </FormControl>

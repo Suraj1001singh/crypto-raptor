@@ -24,7 +24,7 @@ const Sidebar = () => {
     <div className={style.container}>
       <div className={style.sidebarTopBox}>
         <h1 className={style.logoText}>NFT Mall</h1>
-        <h4 className={style.logoSubText}>Get Best selling NFT's</h4>
+        <h4 className={style.logoSubText}>Get Best selling NFT&apos;s</h4>
         {!currentAccount ? (
           <Button
             width={"fit-content"}
@@ -59,7 +59,7 @@ const Sidebar = () => {
         </div>
         <div className={style.menuItem} onClick={() => setCurrentPage(3)}>
           <FaRegListAlt className={style.menuIcon} />
-          My NFT's
+          My NFT&apos;s
         </div>
         <div className={style.menuItem} onClick={() => setCurrentPage(4)}>
           <MdLocalMall className={style.menuIcon} />

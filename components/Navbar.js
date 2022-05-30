@@ -17,7 +17,7 @@ const Navbar = () => {
     <div className={style.container}>
       <Stack className={style.searchBar}>
         <InputGroup>
-          <InputLeftElement children={<BsSearch className={style.searchIcon} />} />
+          {/* <InputLeftElement children={<BsSearch className={style.searchIcon} />} /> */}
           <Input placeholder="Search here..." />
         </InputGroup>
       </Stack>

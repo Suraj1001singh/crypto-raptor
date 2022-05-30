@@ -45,7 +45,7 @@ const Purchase = () => {
           ) : (
             <>
               {purchasedNfts.length == 0 ? (
-                <div>You haven't purchased any NFT yet..</div>
+                <div>You haven&apos;t purchased any NFT yet..</div>
               ) : (
                 <>
                   {purchasedNfts?.map((item, index) => (
