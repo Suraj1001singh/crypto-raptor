@@ -1,6 +1,8 @@
 import React from "react";
 import { Alert, AlertIcon, AlertTitle, AlertDescription } from "@chakra-ui/react";
-const Alert = ({ status, title, description }) => {
+
+
+const CustomAlert = ({ status, title, description }) => {
   return (
     <Alert status={status}>
       <AlertIcon />
@@ -10,4 +12,4 @@ const Alert = ({ status, title, description }) => {
   );
 };
 
-export default Alert;
+export default CustomAlert;
